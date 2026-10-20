@@ -1,5 +1,4 @@
-python
+streamlit
 numpy
 pandas
 scikit-learn
-streamlit
