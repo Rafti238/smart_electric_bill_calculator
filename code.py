@@ -28,6 +28,8 @@ x_train_normalized=scale.fit_transform(x_train)
 #linear regression
 regression=SGDRegressor(max_iter=1000000)
 regression.fit(x_train_normalized,y_train)
+# receiving the optimum parametes and bias
+
 w_normalized=regression.coef_
 b_normalized=regression.intercept_
 # input 
